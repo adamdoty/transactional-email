@@ -1,0 +1,216 @@
+<mjml>
+  <mj-head>
+    <mj-breakpoint width="600px" />
+    <mj-preview>Receipt for Your Payment to Spotify USA Inc</mj-preview>
+    <mj-title>Receipt for Your Payment to Spotify USA Inc</mj-title>
+  </mj-head>
+  <mj-body>
+    <!-- Header -->
+    <mj-section>
+      <mj-column>
+        <mj-text>Hello, Adam Doty</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Body -->
+    <mj-wrapper>
+      <!-- logo + summary + button + text -->
+      <mj-section>
+        <mj-column>
+          <mj-image width="48px" src="./images/paypal-logo-initial.png" />
+          <mj-text>
+            You sent a payment of $15.99 USD to Spotify USA Inc
+            &#40;support@spotify.com&#41;
+          </mj-text>
+          <mj-button> View or Manage Payment </mj-button>
+          <mj-text>
+            It may take a few moments for this transaction to show up in your
+            account.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <!-- transaction details -->
+      <mj-section>
+        <mj-column>
+          <mj-table>
+            <tr
+              style="
+                border-bottom: 1px solid #ecedee;
+                text-align: left;
+                padding: 15px 0;
+              "
+            >
+              <th style="padding: 0 15px 0 0">Transaction ID</th>
+            </tr>
+            <tr>
+              <td style="padding: 0 15px 0 0"><a>00X00000X00000000</a></td>
+            </tr>
+          </mj-table>
+          <mj-table>
+            <tr
+              style="
+                border-bottom: 1px solid #ecedee;
+                text-align: left;
+                padding: 15px 0;
+              "
+            >
+              <th style="padding: 0 15px 0 0">Merchant</th>
+            </tr>
+            <tr>
+              <td style="padding: 0 15px 0 0">Spotify USA Inc</td>
+            </tr>
+            <tr>
+              <td style="padding: 0 15px 0 0">support@spotify.com</td>
+            </tr>
+          </mj-table>
+          <mj-table>
+            <tr
+              style="
+                border-bottom: 1px solid #ecedee;
+                text-align: left;
+                padding: 15px 0;
+              "
+            >
+              <th style="padding: 0 15px 0 0">Invoice ID</th>
+            </tr>
+            <tr>
+              <td style="padding: 0 15px 0 0">X00000X000</td>
+            </tr>
+          </mj-table>
+        </mj-column>
+        <mj-column>
+          <mj-table>
+            <tr
+              style="
+                border-bottom: 1px solid #ecedee;
+                text-align: left;
+                padding: 15px 0;
+              "
+            >
+              <th style="padding: 0 15px 0 0">Transaction Date</th>
+            </tr>
+            <tr>
+              <td style="padding: 0 15px 0 0">May 27, 2023 14:32:20 PDT</td>
+            </tr>
+          </mj-table>
+          <mj-table>
+            <tr
+              style="
+                border-bottom: 1px solid #ecedee;
+                text-align: left;
+                padding: 15px 0;
+              "
+            >
+              <th style="padding: 0 15px 0 0">Instructions to merchant</th>
+            </tr>
+            <tr>
+              <td style="padding: 0 15px 0 0">
+                You haven't entered any instructions
+              </td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+      <!-- rewards img -->
+      <mj-section>
+        <mj-column>
+          <mj-image width="500px" src="./images/want-some-rewards.png" />
+        </mj-column>
+      </mj-section>
+      <!-- transaction itemized table -->
+      <mj-section>
+        <mj-column>
+          <mj-table>
+            <tr
+              style="
+                border-bottom: 1px solid #ecedee;
+                text-align: left;
+                padding: 15px 0;
+              "
+            >
+              <th style="padding: 0 15px 0 0">Description</th>
+              <th style="padding: 0 15px">Unit price</th>
+              <th style="padding: 0 0 0 15px">Qty</th>
+              <th style="padding: 0 0 0 15px">Amount</th>
+            </tr>
+            <tr>
+              <td style="padding: 0 15px 0 0"></td>
+              <td style="padding: 0 15px">$15.99 USD</td>
+              <td style="padding: 0 0 0 15px">1</td>
+              <td style="padding: 0 0 0 15px">$15.99 USD</td>
+            </tr>
+            <tr>
+              <td style="padding: 0 15px 0 0"></td>
+              <td style="padding: 0 15px"></td>
+              <td style="padding: 0 0 0 15px">Subtotal</td>
+              <td style="padding: 0 0 0 15px">$15.99 USD</td>
+            </tr>
+            <tr>
+              <td style="padding: 0 15px 0 0"></td>
+              <td style="padding: 0 15px"></td>
+              <td style="padding: 0 0 0 15px">Total</td>
+              <td style="padding: 0 0 0 15px">$15.99 USD</td>
+            </tr>
+            <tr>
+              <td style="padding: 0 15px 0 0"></td>
+              <td style="padding: 0 15px"></td>
+              <td style="padding: 0 0 0 15px">Payment</td>
+              <td style="padding: 0 0 0 15px">$15.99 USD</td>
+            </tr>
+            <tr>
+              <td style="padding: 0 15px 0 0"></td>
+              <td style="padding: 0 15px"></td>
+              <td style="padding: 0 0 0 15px"></td>
+              <td style="padding: 0 15px 0 0">
+                Charge will appear on your credit card statement as "PAYPAL
+                *SPOTIFYUSAI"
+              </td>
+            </tr>
+            <tr>
+              <td style="padding: 0 15px 0 0"></td>
+              <td style="padding: 0 15px"></td>
+              <td style="padding: 0 0 0 15px"></td>
+              <td style="padding: 0 15px 0 0">
+                Payment sent to support@spotify.com
+              </td>
+            </tr>
+            <tr>
+              <td style="padding: 0 15px 0 0"></td>
+              <td style="padding: 0 15px"></td>
+              <td style="padding: 0 0 0 15px"></td>
+              <td style="padding: 0 15px 0 0">
+                Payment sent from xxxxxxxx@gmail.com
+              </td>
+            </tr>
+            <tr>
+              <td style="padding: 0 15px 0 0"></td>
+              <td style="padding: 0 15px"></td>
+              <td style="padding: 0 0 0 15px">
+                Funding Sources Used &#40;Total&#41;
+              </td>
+              <td style="padding: 0 15px 0 0"></td>
+            </tr>
+            <tr>
+              <td style="padding: 0 15px 0 0"></td>
+              <td style="padding: 0 15px"></td>
+              <td style="padding: 0 0 0 15px">Visa x-0000</td>
+              <td style="padding: 0 15px 0 0"></td>
+            </tr>
+          </mj-table>
+        </mj-column>
+      </mj-section>
+      <!-- button + text -->
+      <mj-section>
+        <mj-column>
+          <mj-button> View or Manage Payment </mj-button>
+          <mj-text> Issues with this transaction? </mj-text>
+          <mj-text>
+            You have 180 days from the date of the transaction to open a dispute
+            in the Resolution Center.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+    <!-- Footer -->
+    <mj-section></mj-section>
+  </mj-body>
+</mjml>
