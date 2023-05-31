@@ -4,7 +4,7 @@
 
 A portfolio project showcasing my ability to make transactional html emails.
 
-[desktop](./email-main.png) and [mobile](./email-main-mobile.png)
+[desktop](./images/email-main.png) and [mobile](./images/email-main-mobile.png)
 
 ## Tools Used
 
