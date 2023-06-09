@@ -1,64 +1,67 @@
+<!-- prettier-ignore -->
 <mjml>
   <mj-head>
     <mj-attributes>
-      <mj-text
-        font-family="Helvetica"
-        padding-left="36px"
-        padding-right="36px"
-      />
-      <mj-button
-        font-family="Helvetica"
-        padding-left="36px"
-        padding-right="36px"
-      />
-      <mj-table
-        font-family="Helvetica"
-        padding-left="36px"
-        padding-right="36px"
-      />
+      <mj-text font-family="Helvetica" padding-left="0" padding-right="0" color="#001435" font-size="14px" />
+      <mj-button font-family="Helvetica" padding-left="0" padding-right="0" background-color="#003087" color="white" font-size="18px" />
+      <mj-table font-family="Helvetica" padding-left="0" padding-right="0" color="#001435" />
     </mj-attributes>
-    <mj-breakpoint width="600px" />
+    <mj-breakpoint width="595px" />
     <mj-preview>Receipt for Your Payment to Spotify USA Inc</mj-preview>
     <mj-title>Receipt for Your Payment to Spotify USA Inc</mj-title>
-    <mj-style> * { box-sizing: border-box; } </mj-style>
-    <mj-style> a { text-decoration: none; color: #0070e0; } </mj-style>
+    <!-- 
+        td, th {
+        font-size: 14px;
+        padding: 0;
+       
+        th {
+        padding-bottom: 2px;
+      }
+      } -->
+    <mj-style>
+      * {
+        box-sizing: border-box;
+      }
+
+      .font-14 {
+        background-color: ;
+        font-size: 14px;
+      }
+
+      a {
+        text-decoration: none;
+        color: #0070e0;
+      }
+    </mj-style>
   </mj-head>
-  <mj-body background-color="white">
+  <mj-body background-color="white" width="650px">
     <!-- Header -->
-    <mj-section padding-bottom="0" background-color="white">
+    <mj-section padding="0" background-color="white">
       <mj-column>
-        <mj-text padding-left="10px" padding-right="10px" color="gray"
-          >Hello, Adam Doty</mj-text
-        >
+        <mj-text padding-top="13px" padding-bottom="13px" padding-left="10px" padding-right="10px" color="dimgray">Hello, Adam Doty
+        </mj-text>
       </mj-column>
     </mj-section>
     <!-- Body -->
-    <mj-wrapper background-color="#faf8f5" padding="0 0">
-      <!-- logo + summary + button + text -->
+    <!-- logo -->
+    <mj-section background-color="#faf8f5" padding="0 20px">
+      <mj-column>
+        <mj-image padding="16px 0" align="left" width="63px" src="./images/paypal-logo-initial.png" />
+      </mj-column>
+    </mj-section>
+    <!-- body -->
+    <mj-wrapper background-color="#faf8f5" padding="0 36px">
+      <!-- summary + button + text -->
       <mj-section padding-top="0">
         <mj-column>
-          <mj-image
-            padding="16px"
-            align="left"
-            width="63px"
-            src="./images/paypal-logo-initial.png"
-          />
-          <mj-text color="#001c64" font-size="30px" line-height="1.15">
-            You sent a payment of $15.99 USD to Spotify USA Inc &#40;<a
-              href="#"
-              style="text-decoration: none"
-              >support@spotify.com</a
-            >&#41;
+          <mj-text padding-top="10px" padding-bottom="10px" color="#001c64" font-size="30px" line-height="1.25">
+            You sent a payment of $15.99 USD to Spotify USA Inc &#40;<a href="#" style="text-decoration: none">support@spotify.com</a>&#41;
           </mj-text>
-          <mj-button
-            background-color="#003087"
-            border-radius="25px"
-            align="left"
-            font-size="16px"
-            inner-padding="13px 40px"
-          >
+          <mj-spacer height="9px" />
+          <mj-button border-radius="25px" align="left" inner-padding="14px 40px">
             View or Manage Payment
           </mj-button>
+          <mj-spacer height="28px" />
           <mj-text>
             It may take a few moments for this transaction to show up in your
             account.
@@ -66,183 +69,141 @@
         </mj-column>
       </mj-section>
       <!-- transaction details -->
-      <mj-section>
+      <mj-section padding="25px 32px" padding-bottom="44px" background-color="white" border-radius="12px">
         <mj-column>
-          <mj-table>
-            <tr
-              style="
-                border-bottom: 1px solid #ecedee;
-                text-align: left;
-                padding: 15px 0;
-              "
-            >
-              <th style="padding: 0 15px 0 0">Transaction ID</th>
+          <mj-table padding="0">
+            <tr style="text-align: left; font-size: 14px;">
+              <th>Transaction ID</th>
             </tr>
             <tr>
-              <td style="padding: 0 15px 0 0">
+              <td style="font-size: 14px; padding: 2px 0 2px 0">
                 <a href="#">00X00000X00000000</a>
               </td>
             </tr>
           </mj-table>
-          <mj-table>
-            <tr
-              style="
-                border-bottom: 1px solid #ecedee;
-                text-align: left;
-                padding: 15px 0;
-              "
-            >
-              <th style="padding: 0 15px 0 0">Merchant</th>
+          <mj-spacer height="21px" />
+          <mj-table padding="0">
+            <tr style="text-align: left; font-size: 14px;">
+              <th>Merchant</th>
             </tr>
             <tr>
-              <td style="padding: 0 15px 0 0">Spotify USA Inc</td>
+              <td style="font-size: 14px; padding: 2px 0 2px 0">Spotify USA Inc</td>
             </tr>
             <tr>
-              <td style="padding: 0 15px 0 0">support@spotify.com</td>
+              <td style="font-size: 14px; padding: 2px 0 2px 0"><a href="#">support@spotify.com</a></td>
             </tr>
           </mj-table>
-          <mj-table>
-            <tr
-              style="
-                border-bottom: 1px solid #ecedee;
-                text-align: left;
-                padding: 15px 0;
-              "
-            >
-              <th style="padding: 0 15px 0 0">Invoice ID</th>
+          <mj-spacer height="21px" />
+          <mj-table padding="0">
+            <tr style="text-align: left; font-size: 14px;">
+              <th>Invoice ID</th>
             </tr>
             <tr>
-              <td style="padding: 0 15px 0 0">X00000X000</td>
+              <td style="font-size: 14px; padding: 2px 0 2px 0">X00000X000</td>
             </tr>
           </mj-table>
         </mj-column>
         <mj-column>
-          <mj-table>
-            <tr
-              style="
-                border-bottom: 1px solid #ecedee;
-                text-align: left;
-                padding: 15px 0;
-              "
-            >
-              <th style="padding: 0 15px 0 0">Transaction Date</th>
+          <mj-table padding="0">
+            <tr style="text-align: left; font-size: 14px;">
+              <th>Transaction Date</th>
             </tr>
             <tr>
-              <td style="padding: 0 15px 0 0">May 27, 2023 14:32:20 PDT</td>
+              <td style="font-size: 14px; padding: 2px 0 2px 0">May 27, 2023 14:32:20 PDT</td>
             </tr>
           </mj-table>
-          <mj-table>
-            <tr
-              style="
-                border-bottom: 1px solid #ecedee;
-                text-align: left;
-                padding: 15px 0;
-              "
-            >
-              <th style="padding: 0 15px 0 0">Instructions to merchant</th>
+          <mj-spacer height="21px" />
+          <mj-table padding="0">
+            <tr style="text-align: left; font-size: 14px;">
+              <th>Instructions to merchant</th>
             </tr>
             <tr>
-              <td style="padding: 0 15px 0 0">
-                You haven't entered any instructions
-              </td>
+              <td style="font-size: 14px; padding: 2px 0 2px 0">You haven't entered any instructions</td>
             </tr>
           </mj-table>
         </mj-column>
       </mj-section>
       <!-- rewards img -->
-      <mj-section>
+      <mj-section padding="14px 20px">
         <mj-column>
-          <mj-image width="500px" src="./images/want-some-rewards.png" />
+          <mj-image padding="10px 0" width="530px" src="./images/want-some-rewards.png" />
         </mj-column>
       </mj-section>
       <!-- transaction itemized table -->
-      <mj-section>
+      <mj-section padding="0">
         <mj-column>
-          <mj-table>
-            <tr
-              style="
-                border-bottom: 1px solid #ecedee;
-                text-align: left;
-                padding: 15px 0;
-              "
-            >
-              <th style="padding: 0 15px 0 0">Description</th>
-              <th style="padding: 0 15px">Unit price</th>
-              <th style="padding: 0 0 0 15px">Qty</th>
-              <th style="padding: 0 0 0 15px">Amount</th>
+          <mj-table padding-top="0">
+            <tr style="
+                border-top: 1px solid #c9ccce;
+                border-bottom: 1px solid #c9ccce;
+                text-align: right;
+                background-color: #f5f7fa;
+              ">
+              <th style="font-size: 14px; padding: 11px 0 11px 12px; text-align: left">
+                Description
+              </th>
+              <th style="font-size: 14px; padding: 12px 0">Unit price</th>
+              <th style="font-size: 14px; padding: 12px 0">Qty</th>
+              <th style="font-size: 14px; padding: 12px 12px 12px 0">Amount</th>
+            </tr>
+            <tr style="border-bottom: 1px solid #cbd2d6;">
+              <td></td>
+              <td style="padding: 6px 0 5px 0; text-align: right;">$15.99 USD</td>
+              <td style="padding: 6px 0 5px 0; text-align: right;">1</td>
+              <td style="padding: 6px 12px 5px 0; text-align: right;">$15.99 USD</td>
             </tr>
             <tr>
-              <td style="padding: 0 15px 0 0"></td>
-              <td style="padding: 0 15px">$15.99 USD</td>
-              <td style="padding: 0 0 0 15px">1</td>
-              <td style="padding: 0 0 0 15px">$15.99 USD</td>
+              <th style="padding: 20px 0 0 0; text-align: right;" colspan="3">Subtotal</th>
+              <td style="padding: 20px 12px 0 0; text-align: right;">$15.99 USD</td>
             </tr>
             <tr>
-              <td style="padding: 0 15px 0 0"></td>
-              <td style="padding: 0 15px"></td>
-              <td style="padding: 0 0 0 15px">Subtotal</td>
-              <td style="padding: 0 0 0 15px">$15.99 USD</td>
+              <th style="padding: 0 0 0 0; text-align: right;" colspan="3">Total</th>
+              <td style="padding: 0 12px 0 0; text-align: right;">$15.99 USD</td>
             </tr>
             <tr>
-              <td style="padding: 0 15px 0 0"></td>
-              <td style="padding: 0 15px"></td>
-              <td style="padding: 0 0 0 15px">Total</td>
-              <td style="padding: 0 0 0 15px">$15.99 USD</td>
+              <th style="padding: 8px 0 0 0; text-align: right;" colspan="3">Payment</th>
+              <td style="padding: 8px 12px 0 0; text-align: right;">$15.99 USD</td>
             </tr>
-            <tr>
-              <td style="padding: 0 15px 0 0"></td>
-              <td style="padding: 0 15px"></td>
-              <td style="padding: 0 0 0 15px">Payment</td>
-              <td style="padding: 0 0 0 15px">$15.99 USD</td>
-            </tr>
-            <tr>
-              <td style="padding: 0 15px 0 0"></td>
-              <td style="padding: 0 15px"></td>
-              <td style="padding: 0 0 0 15px"></td>
-              <td style="padding: 0 15px 0 0">
+            <tr style="line-height: 21px">
+              <td style="padding: 8px 0 0 0; text-align: right;" colspan="4">
                 Charge will appear on your credit card statement as "PAYPAL
                 *SPOTIFYUSAI"
               </td>
             </tr>
-            <tr>
-              <td style="padding: 0 15px 0 0"></td>
-              <td style="padding: 0 15px"></td>
-              <td style="padding: 0 0 0 15px"></td>
-              <td style="padding: 0 15px 0 0">
-                Payment sent to support@spotify.com
+            <tr style="line-height: 21px">
+              <td style="padding: 0 0 0 0; text-align: right;" colspan="4">
+                Payment sent to <a href="#">support@spotify.com</a>
+              </td>
+            </tr>
+            <tr style="line-height: 21px">
+              <td style="padding: 0 0 0 0; text-align: right;" colspan="4">
+                Payment sent from <a href="#">xxxxxxxx@gmail.com</a>
               </td>
             </tr>
             <tr>
-              <td style="padding: 0 15px 0 0"></td>
-              <td style="padding: 0 15px"></td>
-              <td style="padding: 0 0 0 15px"></td>
-              <td style="padding: 0 15px 0 0">
-                Payment sent from xxxxxxxx@gmail.com
-              </td>
-            </tr>
-            <tr>
-              <td style="padding: 0 15px 0 0"></td>
-              <td style="padding: 0 15px"></td>
-              <td style="padding: 0 0 0 15px">
+              <th style="padding: 20px 0 0 0; text-align: right;" colspan="3">
                 Funding Sources Used &#40;Total&#41;
-              </td>
-              <td style="padding: 0 15px 0 0"></td>
+              </th>
+              <td></td>
             </tr>
             <tr>
-              <td style="padding: 0 15px 0 0"></td>
-              <td style="padding: 0 15px"></td>
-              <td style="padding: 0 0 0 15px">Visa x-0000</td>
-              <td style="padding: 0 15px 0 0"></td>
+              <td></td>
+              <td></td>
+              <td style="padding: 4px 0 0 0; text-align: right;">Visa x-0000</td>
+              <td style="padding: 4px 0 0 0; text-align: right;">$15.99 USD</td>
             </tr>
           </mj-table>
         </mj-column>
       </mj-section>
       <!-- button + text -->
-      <mj-section>
+      <mj-section padding-top="0">
         <mj-column>
-          <mj-button> View or Manage Payment </mj-button>
-          <mj-text> Issues with this transaction? </mj-text>
-          <mj-text>
+          <mj-button border-radius="25px" align="left" inner-padding="14px 40px">
+            View or Manage Payment
+          </mj-button>
+          <mj-spacer height="10px" />
+          <mj-text font-weight="700">Issues with this transaction?</mj-text>
+          <mj-text padding-top="0">
             You have 180 days from the date of the transaction to open a dispute
             in the Resolution Center.
           </mj-text>
