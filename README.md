@@ -10,10 +10,8 @@ A portfolio project showcasing my ability to make transactional html emails.
 
 - [MJML](https://documentation.mjml.io/) (markup language)
 - [Color Picker](https://imagecolorpicker.com/en) (getting correct colors)
-- [Sketch](https://www.sketch.com/) (layout breakdown)
-- [Litmus PutsMail](https://putsmail.com/) (testing)
-
-## Observations
+- [Figma](https://www.figma.com/) (layout breakdown)
+<!-- - [Litmus PutsMail](https://putsmail.com/) (testing) -->
 
 ## Disclaimer
 
