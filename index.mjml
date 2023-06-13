@@ -27,9 +27,17 @@
         text-decoration: none;
         color: #0070e0;
       }
+
       @media (max-width: 595px) {
         .mobile-group-width {
           width: 16% !important;
+        }
+      }
+
+      @media (min-width: 400px) {
+        .additional-padding {
+          padding-left: 16px !important;
+          padding-right: 16px !important;
         }
       }
     </mj-style>
@@ -50,7 +58,7 @@
       </mj-column>
     </mj-section>
     <!-- body -->
-    <mj-wrapper background-color="#faf8f5" padding="0 36px">
+    <mj-wrapper background-color="#faf8f5" padding="0 20px" css-class="additional-padding">
       <!-- summary + button + text -->
       <mj-section padding-top="0">
         <mj-column>
@@ -215,13 +223,12 @@
     <!-- Footer -->
     <!-- logo -->
     <mj-section background-color="#faf8f5" padding="0">
-      <!-- logo -->
       <mj-column>
         <mj-image width="284px" src="./images/paypal-logo-full-name.png" align="left" padding="0" />
       </mj-column>
     </mj-section>
     <!-- navigation -->
-    <mj-section background-color="#faf8f5" padding="0 36px">
+    <mj-section background-color="#faf8f5" padding="0 20px" css-class="additional-padding">
       <!-- logo -->
       <mj-column>
         <mj-divider border-width="1px" border-color="lightgrey" padding="0" />
@@ -232,7 +239,7 @@
       </mj-column>
     </mj-section>
     <!-- icons -->
-    <mj-section background-color="#faf8f5" padding="0 36px" padding-top="16px" padding-bottom="8px" >
+    <mj-section background-color="#faf8f5" padding="0 20px" padding-top="16px" padding-bottom="8px" css-class="additional-padding">
       <mj-group>
         <mj-column width="62px" css-class="mobile-group-width">
           <mj-social padding-left="0">
@@ -257,7 +264,7 @@
       </mj-group>
     </mj-section>
     <!-- legal text -->
-    <mj-section background-color="#faf8f5" padding="0 36px" padding-bottom="40px">
+    <mj-section background-color="#faf8f5" padding="0 20px" padding-bottom="40px" css-class="additional-padding">
       <mj-column>
         <mj-text font-size="11px" line-height="1.2" padding-bottom="0">PayPal is committed to preventing fraudulent emails. Emails from PayPal with always contain your full name. <a href="">Learn to identify phishing</a></mj-text>
         <mj-text font-size="11px" line-height="1.2" padding-bottom="0">Please don't reply to this email. To get in touch with us, click <a href="#">Help &amp; Contact</a>.</mj-text>
