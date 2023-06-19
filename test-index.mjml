@@ -45,7 +45,7 @@
     <!-- logo -->
     <mj-section background-color="#faf8f5" padding="0 20px">
       <mj-column>
-        <mj-image padding="16px 0" align="left" width="63px" src="./images/paypal-logo-initial.png" />
+        <mj-image padding="16px 0" align="left" width="63px" src="https://adamdoty.dev/projects/transactional-email/images/paypal-logo-initial.png" />
       </mj-column>
     </mj-section>
     <!-- body -->
@@ -127,7 +127,7 @@
       <!-- rewards img -->
       <mj-section padding="14px 20px">
         <mj-column>
-          <mj-image padding="10px 0" width="530px" src="./images/want-some-rewards.png" />
+          <mj-image padding="10px 0" width="530px" src="https://adamdoty.dev/projects/transactional-email/images/want-some-rewards.png" />
         </mj-column>
       </mj-section>
       <!-- transaction itemized table -->
@@ -215,7 +215,7 @@
     <!-- logo -->
     <mj-section background-color="#faf8f5" padding="0">
       <mj-column>
-        <mj-image width="284px" src="./images/paypal-logo-full-name.png" align="left" padding="0" />
+        <mj-image width="284px" src="https://adamdoty.dev/projects/transactional-email/images/paypal-logo-full-name.png" align="left" padding="0" />
       </mj-column>
     </mj-section>
     <!-- navigation -->
@@ -234,22 +234,22 @@
       <mj-group>
         <mj-column width="62px" css-class="mobile-group-width">
           <mj-social padding-left="0">
-            <mj-social-element icon-size="28px" src="./images/twitter.png"></mj-social-element>
+            <mj-social-element icon-size="28px" src="https://adamdoty.dev/projects/transactional-email/images/twitter.png"></mj-social-element>
           </mj-social>
         </mj-column>
         <mj-column width="62px" css-class="mobile-group-width">
           <mj-social padding-left="0">
-            <mj-social-element icon-size="28px" src="./images/instagram.png"></mj-social-element>
+            <mj-social-element icon-size="28px" src="https://adamdoty.dev/projects/transactional-email/images/instagram.png"></mj-social-element>
           </mj-social>
         </mj-column>
         <mj-column width="62px" css-class="mobile-group-width">
           <mj-social padding-left="0">
-            <mj-social-element icon-size="28px" src="./images/facebook.png"></mj-social-element>
+            <mj-social-element icon-size="28px" src="https://adamdoty.dev/projects/transactional-email/images/facebook.png"></mj-social-element>
           </mj-social>
         </mj-column>
         <mj-column width="62px" css-class="mobile-group-width">
           <mj-social padding-left="0">
-            <mj-social-element icon-size="28px" src="./images/linkedin.png"></mj-social-element>
+            <mj-social-element icon-size="28px" src="https://adamdoty.dev/projects/transactional-email/images/linkedin.png"></mj-social-element>
           </mj-social>
         </mj-column>
       </mj-group>
